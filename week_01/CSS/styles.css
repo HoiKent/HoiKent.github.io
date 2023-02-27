@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(64, 67, 79);
+}
+
+.As_We_May_Think{
+    position: sticky;
+    top: 50px;
+}
+
+.Response_1{
+    border: blue dashed 5px;
+    padding: 1vw;
+    width: 100px;
+    position: relative;
+    left: 50px;
+    background: blueviolet;
+}
+
+.Response_2{
+    width: 1000px;
+    border: 10px;
+    padding: 25px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: yellow;
+}
+
+.Return_link{
+    
+    position: relative;
+    top: 30px;
+    background-color: aqua;
+}

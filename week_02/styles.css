@@ -1,0 +1,28 @@
+body {background-color: beige; 
+}
+
+#tittle {
+    position:absolute;
+    
+}
+
+#a1{ 
+  background-color: aquamarine;
+  padding: 20px;
+  margin: 15% au;
+  border: 7px; 
+}
+
+#a2{
+    background-color: rgb(255, 0, 251);
+    padding: 20%;
+    margin: 15%;
+    border: 7%;
+}
+
+#a3{ 
+    background-color: rgb(255, 191, 0);
+    padding: 20rem;
+    margin: 15rem;
+    border: 7rem;
+}

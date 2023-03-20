@@ -2,17 +2,18 @@ body{
     background-color: rgb(156, 209, 254);
 }
 
-#Flex{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    row-gap: 100px;
-}
-
 #Grid{
     display: grid; 
     grid-auto-flow: column;
     padding: 10px;
-    background-color: rgb(84, 2, 139);
+    background-color: rgb(63, 1, 104);
 
 }
+
+#Flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 100px;
+}
+

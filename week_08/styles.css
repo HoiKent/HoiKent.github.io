@@ -1,0 +1,65 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    
+    color: aliceblue;
+
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+b{
+    color: rgb(101, 166, 201);
+}
+
+@keyframes slideInLeft {
+    from{ transform: translateX(-1500px);}
+    to{ transform: translateX(0);}
+}
+
+@keyframes slideInRight {
+    from{ transform: translateX(1500px);}
+    to{ transform: translateX(0);}
+}
+
+@keyframes fade {
+    from{color: rgb(255, 247, 0); font-size: 25px;}
+    to{color: blue; font-size: 50px;}
+    
+
+    
+}
+
+.disney{ 
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.disney1{ 
+    animation-name: slideInRight;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+h1{
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}

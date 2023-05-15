@@ -5,11 +5,31 @@
     border-radius: 50%;
     cursor: pointer;
     position: absolute;
+
 }
+
+#target.explode{
+    transform: scale(1.5);
+    animation: fade .01s linear forwards
+    
+
+}
+
+@keyframes fade {
+    0% {
+        background-color: red;
+        opacity: 1;
+      }
+      100% {
+        background-color: green;
+        opacity: 0;
+      }
+}
+
 
 #timerdisplay{
     position: absolute; top: 25px; left: 50%; color: rgb(0, 255, 238); font-size: 25px;
-
+    opacity: 0;
 }
 
 
@@ -25,6 +45,82 @@
 #startbutton:hover{
     transform: scale(1.25);
 }
+
+#gameboard{
+    bottom: 50px;
+    left: 50px;
+}
+
+#settings{
+    position: absolute; top: 40%; left: 45%;
+}
+
+.timer_setting{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+#timer_setting{
+    width: 30px;
+    height: 20px;
+    
+}
+
+label{
+    width: 10px;
+    
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    height: 30%;
+    width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: inline-block;
+  }
+
+  #modal_text{
+    align-items: center;
+    font-size: 30px;
+  }
+
+  h2{
+    color: red;
+    font-size: 40px;
+  }
+  
+  #continuebutton{
+    height: 60px;
+    background-color: rgb(106, 108, 112); color: rgb(0, 225, 255); font-size: 50px;
+    text-align: center;
+    border-radius: 15%;
+    cursor: pointer;
+    left: 500px;
+  }
+
+
+
+
+
 
 body{ 
     background-color: rgb(45, 45, 45);

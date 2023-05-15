@@ -11,13 +11,28 @@
 
     <body>
         <div id="gameboard">
-           <div id="timerdisplay"> Timer: <span id="timer"> 60</span> </div>
+            <div id="settings"> 
+                <label class="timer_setting"> Game Time:</label>
+                <input id="timer_setting" type="text">
+            </div>
+            <div id="timerdisplay"> Timer: <span id="timer"> </span> </div>
             <div id="accuracy"> </div>
             <div id="startbutton"> Start</div>
+           
             
             
     
         </div>
+
+        <div id="modal" class="hidden">
+            <div class="modal-content">
+              <h2>Game Over</h2>
+              <p id="modal_text"> </p>
+              <div id="continuebutton"> Continue</div>
+            </div>
+          </div>
+
+
         <script src="gridshot.js"></script> 
         
     </body>

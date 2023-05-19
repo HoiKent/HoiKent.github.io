@@ -1,10 +1,13 @@
 body {background-color: beige; 
+     margin-top: 50px;
+    align-items: center;
 }
 
 #tittle {
-    position:absolute;
     background-color: brown;
-    
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
 }
 
 #a1{ 
@@ -24,6 +27,22 @@ body {background-color: beige;
 #a3{ 
     background-color: rgb(255, 191, 0);
     padding: 20rem;
-    margin: 15rem;
-    border: 7rem;
+  
+}
+
+#a4{
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    margin: 100px;
+    border: 100px;
+}
+
+#pic{
+    align-items: center;
+}
+
+#home{
+    margin: 50px;
+    border: 25px;
 }
